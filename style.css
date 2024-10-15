@@ -1,0 +1,81 @@
+body {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box {
+    width: 170px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition:
+        box-shadow 0.3s,
+        transform 0.3s;
+    background-color: antiquewhite;
+}
+
+.box:hover {
+    background-color: #f7f7f7;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.unit {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.example {
+    font-size: inherit;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.ex {
+    font-size: 2ex;
+}
+
+.rem {
+    font-size: 2rem;
+}
+
+.percent {
+    font-size: 200%;
+}
+
+.vw {
+    font-size: 2vw;
+}
+
+.vh {
+    font-size: 2vh;
+}
+
+.vmin {
+    font-size: 2vmin;
+}
+
+.vmax {
+    font-size: 2vmax;
+}
+
+.ch {
+    font-size: 2ch;
+}
